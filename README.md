@@ -95,7 +95,7 @@ inside where you are supposed to write the code, and uncomment it. Remove the wo
 
 ### Objective
 
-- Use multiple conditions (if OR else if OR else) to modify a variable, and report back the status
+- Use conditions (ifs) to modify a variable, and report back the status
 
 ### Instructions
 
@@ -259,7 +259,7 @@ inside where you are supposed to write the code, and uncomment it. Remove the wo
 
 ---
 
-🌧️ Bonus Challenge – Sleep Problems
+Bonus Challenge – Sleep Problems
 
 Modify another function `CheckSleepProblems()` that asks:
 What happened last night?
@@ -278,4 +278,4 @@ Deduct points and add comments based on keywords:
 Once the deduction is applied, return to the initial question.
 
 
-### Total Points: 26 + Bonus
+### Total Points: 25 + Bonus
