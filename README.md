@@ -238,15 +238,16 @@ inside where you are supposed to write the code, and uncomment it. Remove the wo
    - If `sleepTime` is below 2, add 5 `restPoints`
    - If `sleepTime` between 3–5, add 10 `restPoints`
    - If `sleepTime` between 6–8, add 15 `restPoints`
+   - repeat TrackSleepStatus() again
 
 2. `stats`  
    Display the user’s current restPoints:
    - if `restPoints` is below 30, "You’re running low on rest — try to recharge soon."
    - if `restPoints` between 30–70, "You’re in a healthy rest zone."
    - if `restPoints` above 70, "You’re well-rested and balanced!"
-
+   - repeat TrackSleepStatus() again
 3. `restart`
-  Ask the inistial question.
+  Ask the initial question AskInitialQuestion().
 
 ### Evaluation Criteria
 
